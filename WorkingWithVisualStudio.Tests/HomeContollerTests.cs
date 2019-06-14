@@ -12,22 +12,23 @@ namespace WorkingWithVisualStudio.Tests
     {
         class ModelCompleteFakeRepository : IRepository
         {
-            public IEnumerable<Product> Products { get; } = new Product[] {
-                new Product {Name = "P1", Price = 275M},
-                new Product {Name = "P2", Price = 48.95M},
-                new Product {Name = "P3", Price = 19.50M},
-                new Product {Name = "P4", Price = 34.95M}
-            };
+            public IEnumerable<Product> Products { get; set; }
 
             public void AddProduct(Product p) { }
 
         }
 
-        [Fact]
-        public void IndexActionModelIsComplete()
+        [Theory]
+        //[InlineData(275, 48.95, 19.50, 24.95)]
+        //[InlineData(5, 48.95, 19.50, 24.95)]
+        [ClassData(typeof(ProductTestData))]
+        public void IndexActionModelIsComplete(Product[] products)
         {
             var controller = new HomeController();
-            controller.Repository = new ModelCompleteFakeRepository();
+            controller.Repository = new ModelCompleteFakeRepository
+            {
+                Products = products
+            };
 
             var model = (controller.Index() as ViewResult)?.ViewData.Model as IEnumerable<Product>;
 
