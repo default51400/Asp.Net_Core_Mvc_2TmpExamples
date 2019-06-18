@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Al.Panda\\source\\repos\\PartyInvites\\PartyInvites.csproj": {}
+    "C:\\Users\\Al.Panda\\source\\repos\\Asp.Net_Core_Mvc_2TmpExamples\\PartyInvites\\PartyInvites.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Al.Panda\\source\\repos\\PartyInvites\\PartyInvites.csproj": {
+    "C:\\Users\\Al.Panda\\source\\repos\\Asp.Net_Core_Mvc_2TmpExamples\\PartyInvites\\PartyInvites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Al.Panda\\source\\repos\\PartyInvites\\PartyInvites.csproj",
+        "projectUniqueName": "C:\\Users\\Al.Panda\\source\\repos\\Asp.Net_Core_Mvc_2TmpExamples\\PartyInvites\\PartyInvites.csproj",
         "projectName": "PartyInvites",
-        "projectPath": "C:\\Users\\Al.Panda\\source\\repos\\PartyInvites\\PartyInvites.csproj",
+        "projectPath": "C:\\Users\\Al.Panda\\source\\repos\\Asp.Net_Core_Mvc_2TmpExamples\\PartyInvites\\PartyInvites.csproj",
         "packagesPath": "C:\\Users\\Al.Panda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Al.Panda\\source\\repos\\PartyInvites\\obj\\",
+        "outputPath": "C:\\Users\\Al.Panda\\source\\repos\\Asp.Net_Core_Mvc_2TmpExamples\\PartyInvites\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
