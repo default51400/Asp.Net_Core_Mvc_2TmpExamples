@@ -29,13 +29,8 @@ namespace UrlsAndRoutes
                 app.UseMvc( routes =>
                 {
                     routes.MapRoute(
-                        name: "ShopSchema2",
-                        template: "Shop/OldAction",
-                        defaults: new { controller = "Home", action = "Index" });
-
-                    routes.MapRoute(
-                       name: "default",
-                       template: "{controller=home}/{action=Index}");
+                       name: "MyRoute",
+                       template: "{controller=Home}/{action=Index}/{id=DefaultId}");
                 });
             }
 

@@ -15,5 +15,17 @@ namespace UrlsAndRoutes.Controllers
                 Controller = nameof(HomeController),
                 Action = nameof(Index)
             });
+
+        public ViewResult CustomVariable()
+        {
+            Result result = new Result
+            {
+                Controller = nameof(HomeController),
+                Action = nameof(CustomVariable)
+            };
+
+            result.Data["Id"] = RouteData.Values["id"];
+            return View("Result", result);
+        }
     }
 }
