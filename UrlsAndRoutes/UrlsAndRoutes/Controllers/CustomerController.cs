@@ -4,7 +4,7 @@ using UrlsAndRoutes.Models;
 namespace UrlsAndRoutes.Controllers
 {
 
-    //[Route("app/[controller]/actions/[action]/{id:weekday?}")]
+    [Route("app/[controller]/actions/[action]/{id:weekday?}")]
     public class CustomerController : Controller
     {
         public ViewResult Index() => View("Result",
@@ -14,23 +14,16 @@ namespace UrlsAndRoutes.Controllers
                 Action = nameof(Index)
             });
 
-        public ViewResult List(string id) => View("Result",
-            new Result
+        public ViewResult List(string id)
+        {
+            Result r = new Result
             {
-                Controller = nameof(CustomerController),
-                Action = nameof(List)
-            });
-
-        //public ViewResult List(string id)
-        //{
-        //    Result r = new Result
-        //    {
-        //        Controller = nameof(HomeController),
-        //        Action = nameof(List),
-        //    };
-        //    r.Data["id"] = id ?? "<no value>";
-        //    r.Data["catchall"] = RouteData.Values["catchall"];
-        //    return View("Result", r);
-        //}
+                Controller = nameof(HomeController),
+                Action = nameof(List),
+            };
+            r.Data["id"] = id ?? "<no value>";
+            r.Data["catchall"] = RouteData.Values["catchall"];
+            return View("Result", r);
+        }
     }
 }

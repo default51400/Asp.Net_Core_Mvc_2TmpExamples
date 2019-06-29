@@ -16,7 +16,7 @@ namespace UrlsAndRoutes.Controllers
                 Action = nameof(Index)
             });
 
-        public ViewResult CustomVariable()
+        public ViewResult CustomVariable(string id)
         {
             Result result = new Result
             {
@@ -24,7 +24,7 @@ namespace UrlsAndRoutes.Controllers
                 Action = nameof(CustomVariable)
             };
 
-            result.Data["Id"] = RouteData.Values["id"];
+            result.Data["Id"] = id ?? "<no value>";
             return View("Result", result);
         }
     }
