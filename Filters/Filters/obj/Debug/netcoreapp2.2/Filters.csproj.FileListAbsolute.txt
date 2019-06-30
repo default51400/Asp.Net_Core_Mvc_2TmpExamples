@@ -1,0 +1,6 @@
+C:\Users\Alexey\source\repos\Asp.Net_Core_Mvc_2TmpExamples\Filters\Filters\obj\Debug\netcoreapp2.2\Filters.csprojAssemblyReference.cache
+C:\Users\Alexey\source\repos\Asp.Net_Core_Mvc_2TmpExamples\Filters\Filters\obj\Debug\netcoreapp2.2\Filters.csproj.CoreCompileInputs.cache
+C:\Users\Alexey\source\repos\Asp.Net_Core_Mvc_2TmpExamples\Filters\Filters\obj\Debug\netcoreapp2.2\Filters.RazorAssemblyInfo.cache
+C:\Users\Alexey\source\repos\Asp.Net_Core_Mvc_2TmpExamples\Filters\Filters\obj\Debug\netcoreapp2.2\Filters.RazorAssemblyInfo.cs
+C:\Users\Alexey\source\repos\Asp.Net_Core_Mvc_2TmpExamples\Filters\Filters\obj\Debug\netcoreapp2.2\Filters.AssemblyInfoInputs.cache
+C:\Users\Alexey\source\repos\Asp.Net_Core_Mvc_2TmpExamples\Filters\Filters\obj\Debug\netcoreapp2.2\Filters.AssemblyInfo.cs
