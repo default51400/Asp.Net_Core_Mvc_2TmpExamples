@@ -21,3 +21,7 @@ C:\Users\Al.Panda\source\repos\Asp.Net_Core_Mvc_2TmpExamples\UrlsAndRoutes\UrlsA
 C:\Users\Al.Panda\source\repos\Asp.Net_Core_Mvc_2TmpExamples\UrlsAndRoutes\UrlsAndRoutes\obj\Debug\netcoreapp2.2\UrlsAndRoutes.Views.pdb
 C:\Users\Al.Panda\source\repos\Asp.Net_Core_Mvc_2TmpExamples\UrlsAndRoutes\UrlsAndRoutes\obj\Debug\netcoreapp2.2\UrlsAndRoutes.csproj.CopyComplete
 C:\Users\Al.Panda\source\repos\Asp.Net_Core_Mvc_2TmpExamples\UrlsAndRoutes\UrlsAndRoutes\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Al.Panda\source\repos\Asp.Net_Core_Mvc_2TmpExamples\UrlsAndRoutes\UrlsAndRoutes\obj\Debug\netcoreapp2.2\Razor\Views\Legacy\GetLegacyUrl.g.cshtml.cs
+C:\Users\Al.Panda\source\repos\Asp.Net_Core_Mvc_2TmpExamples\UrlsAndRoutes\UrlsAndRoutes\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+C:\Users\Al.Panda\source\repos\Asp.Net_Core_Mvc_2TmpExamples\UrlsAndRoutes\UrlsAndRoutes\obj\Debug\netcoreapp2.2\UrlsAndRoutes.csprojAssemblyReference.cache
+C:\Users\Al.Panda\source\repos\Asp.Net_Core_Mvc_2TmpExamples\UrlsAndRoutes\UrlsAndRoutes\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Home\Index.g.cshtml.cs
