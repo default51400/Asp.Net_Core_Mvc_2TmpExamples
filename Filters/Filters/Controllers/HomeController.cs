@@ -12,7 +12,7 @@ namespace Filters.Controllers
     public class HomeController : Controller
     {
         [Message("This is the First Action-Scoped Filter", Order = 1)]
-        [Message("This is the Second Action-Scoped Filter")]
+        [Message("This is the Second Action-Scoped Filter", Order = -1)]
         public ViewResult Index() => View("Message", "This is the Index action оп the Home controller");
     }
 }
