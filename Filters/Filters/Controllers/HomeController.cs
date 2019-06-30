@@ -8,7 +8,7 @@ using Filters.Infrastructure;
 
 namespace Filters.Controllers
 {
-    [HttpsOnly]
+    [ViewResultDetails]
     public class HomeController : Controller
     {
         public ViewResult Index() => View("Message",
