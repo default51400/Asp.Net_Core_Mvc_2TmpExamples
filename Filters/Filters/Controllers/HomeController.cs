@@ -8,9 +8,8 @@ using Filters.Infrastructure;
 
 namespace Filters.Controllers
 {
-    [Profile]
-    [ViewResultDetails]
-    [RangeException]
+    [TypeFilter(typeof(DiagnosticsFilter))]
+    [TypeFilter(typeof(TimeFilter))]
     public class HomeController : Controller
     {
         public ViewResult Index() => View("Message",
