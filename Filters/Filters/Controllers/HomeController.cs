@@ -9,7 +9,7 @@ using Filters.Infrastructure;
 namespace Filters.Controllers
 {
     [TypeFilter(typeof(DiagnosticsFilter))]
-    [TypeFilter(typeof(TimeFilter))]
+    [ServiceFilter(typeof(TimeFilter))]
     public class HomeController : Controller
     {
         public ViewResult Index() => View("Message",

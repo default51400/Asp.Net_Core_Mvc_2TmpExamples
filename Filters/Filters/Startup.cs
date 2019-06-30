@@ -17,7 +17,14 @@ namespace Filters
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IFilterDiagnostics, DefaultFilterDiagnostics>();
-            services.AddMvc();
+            services.AddScoped<TimeFilter>();
+            services.AddScoped<ViewResultDiagnostics>();
+            services.AddScoped<DiagnosticsFilter>();
+            services.AddMvc().AddMvcOptions(options =>
+            {
+                options.Filters.AddService(typeof(ViewResultDiagnostics));
+                options.Filters.AddService(typeof(DiagnosticsFilter));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
